@@ -298,7 +298,7 @@ print_stackframe(void) {
         eip = *((uint32_t *)ebp+1);
         ebp = *(uint32_t *)ebp;
     }
-     /* LAB1 YOUR CODE : STEP 1 */
+     /* LAB1 2014011303 : STEP 1 */
      /* (1) call read_ebp() to get the value of ebp. the type is (uint32_t);
       * (2) call read_eip() to get the value of eip. the type is (uint32_t);
       * (3) from 0 .. STACKFRAME_DEPTH
